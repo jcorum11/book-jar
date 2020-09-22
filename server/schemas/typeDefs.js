@@ -8,7 +8,7 @@ module.exports = gql`
     bookCount: Int
   }
   input BookInput {
-    authorArr: [String]
+    author: String
     description: String
     title: String
     bookId: ID
